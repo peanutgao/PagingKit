@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "PagingKit"
-  s.version          = "1.18.2"
+  s.version          = "1.18.3"
   s.summary          = "PagingKit provides customisable menu & content UI."
   s.swift_version = '5.1'
 
@@ -26,4 +26,5 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
 
   s.source_files = "Sources/**/*.{h,m,swift}"
+  s.resource_bundles = {'PagingKit' => ['Sources/PrivacyInfo.xcprivacy']}
 end
